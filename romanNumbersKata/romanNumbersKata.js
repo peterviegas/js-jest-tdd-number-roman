@@ -12,6 +12,7 @@ function romanNumber(number) {
         //Hundred
         const romanhundred = ['C', 'CC', 'CCC', 'CD', 'D', 'DC', 'DCC', 'DCCC', 'CM'];
         //Thousand
+        const romanThousand = ['M', 'MM', 'MMM'];
 
         //Create a initial storage copyin unti 1-9
         const romanNumbers = [...romanUnit];
@@ -25,7 +26,7 @@ function romanNumber(number) {
         }
 
         //Create auxiliar variable to store 1-99
-        const romanNumbersAux = [...romanNumbers];
+        let romanNumbersAux = [...romanNumbers];
 
         //Add the hundred letters (hudred + decimal + unit) 1-999
         for (const f in romanhundred) {
@@ -35,10 +36,16 @@ function romanNumber(number) {
             }
         }
 
-
+        //update auxiliary variable with result so far
+        romanNumbersAux = [...romanNumbers];
 
         //Add the thousand letters (thousand + hudred + decimal + unit) 1-3000
-
+        for (const f in romanThousand) {
+            romanNumbers.push(romanThousand[f]);
+            for (const s in romanNumbersAux) {
+                romanNumbers.push(romanThousand[f] + romanNumbersAux[s]);
+            }
+        }
         //retur result
 
         return romanNumbers[number - 1];

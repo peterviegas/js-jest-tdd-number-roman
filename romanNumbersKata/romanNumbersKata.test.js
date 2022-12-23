@@ -81,3 +81,18 @@ test('Hundred Test 800= DCCC', () => {
 test('Hundred Test 999= CMXCIX', () => {
     expect(romanNumber(999)).toBe('CMXCIX');
 });
+test('This year 2022 = MMXXII', () => {
+    expect(romanNumber(2022)).toBe('MMXXII');
+});
+test('Next year 2023 = MMXXIII', () => {
+    expect(romanNumber(2023)).toBe('MMXXIII');
+});
+test('Last number roman 3000= MMM', () => {
+    expect(romanNumber(3000)).toBe('MMM');
+});
+test('England won the cup 1966 = MCMLXVI', () => {
+    expect(romanNumber(1966)).toBe('MCMLXVI');
+});
+test('My birtday year 1969 = MCMLXIX', () => {
+    expect(romanNumber(1969)).toBe('MCMLXIX');
+});
