@@ -46,6 +46,7 @@ Write a function to convert in the other direction, i.e., numeral to digit.
   ![image](https://github.com/peterviegas/js-jest-tdd-number-roman/assets/91379638/8e41dd0a-9c8c-4a42-b1d2-fbc34ae71eb9)
 
 
-  ![image](https://github.com/peterviegas/js-jest-tdd-number-roman/assets/91379638/220696e7-e1fe-4747-9f6f-faa28de33687)
+ ![image](https://github.com/peterviegas/js-jest-tdd-number-roman/assets/91379638/d4407970-6037-4249-a63e-842413483244)
+
 
 
