@@ -1,4 +1,6 @@
-## Test-Driven Development (TDD) - Roman Numerals Kata
+![image](https://github.com/peterviegas/js-jest-tdd-number-roman/assets/91379638/6f0f7f47-215c-42c0-bd10-d4094ec61e8f)
+## Test-Driven Development (TDD) - Roman Numerals Kata 
+
 
 ### Problem Description
 
@@ -22,7 +24,9 @@ There is no need to be able to convert numbers larger than about 3000. (The Roma
 ### Part II
 Write a function to convert in the other direction, i.e., numeral to digit.
 
-### Clues
+
+### Clues ![image](https://github.com/peterviegas/js-jest-tdd-number-roman/assets/91379638/2edde575-693e-48d6-84ec-074255c821bd) 
+
 - Can you make the code really beautiful and highly readable?
 - Does it help to break out lots of small named functions from the main function, or is it better to keep it all in one function?
 - If you don’t know an algorithm to do this already, can you derive one using strict TDD?
@@ -37,3 +41,11 @@ Write a function to convert in the other direction, i.e., numeral to digit.
  ### Understanding the Numbers
   
   Explanation about the Roman numerals system.
+
+
+  ![image](https://github.com/peterviegas/js-jest-tdd-number-roman/assets/91379638/8e41dd0a-9c8c-4a42-b1d2-fbc34ae71eb9)
+
+
+  ![image](https://github.com/peterviegas/js-jest-tdd-number-roman/assets/91379638/220696e7-e1fe-4747-9f6f-faa28de33687)
+
+
